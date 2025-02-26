@@ -4999,6 +4999,28 @@
 			)
 		)
 	)
+	(global_label "12V"
+		(shape input)
+		(at 104.14 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e528e7cc-9f9c-409c-a889-95db0b50d4c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.9786 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TIAout"
 		(shape input)
 		(at 132.08 99.06 0)
@@ -5444,7 +5466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "130a3891-0b07-42a9-a8e6-686dcd2bcc14")
-		(property "Reference" "POL3"
+		(property "Reference" "POL2"
 			(at 123.825 59.69 0)
 			(effects
 				(font
@@ -5499,7 +5521,7 @@
 		(instances
 			(project "MIP_Template"
 				(path "/0a653fc0-4dea-47e5-b804-9bb7e8c31233"
-					(reference "POL3")
+					(reference "POL2")
 					(unit 1)
 				)
 			)
@@ -6006,7 +6028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b9512fb-7e7e-46ca-91f2-736ea90278d5")
-		(property "Reference" "POL2"
+		(property "Reference" "POL3"
 			(at 123.825 46.99 0)
 			(effects
 				(font
@@ -6061,7 +6083,7 @@
 		(instances
 			(project "MIP_Template"
 				(path "/0a653fc0-4dea-47e5-b804-9bb7e8c31233"
-					(reference "POL2")
+					(reference "POL3")
 					(unit 1)
 				)
 			)
@@ -6432,6 +6454,73 @@
 			(project "MIP_Template"
 				(path "/0a653fc0-4dea-47e5-b804-9bb7e8c31233"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "551c9e7c-5a8e-4543-807d-99800392f284")
+		(property "Reference" "#PWR05"
+			(at 110.49 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 34.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa2d18c8-b6e0-4e95-9687-93dc1f4f0712")
+		)
+		(instances
+			(project "nucleo_shield"
+				(path "/0a653fc0-4dea-47e5-b804-9bb7e8c31233"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
