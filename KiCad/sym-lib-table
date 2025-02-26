@@ -1,0 +1,13 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "UGent_standard_stock_Crystals")(type "KiCad")(uri "${KIPRJMOD}/Lib/UGent_standard_stock_Crystals.kicad_sym")(options "")(descr ""))
+  (lib (name "UGent_standard_stock_Discrete")(type "KiCad")(uri "${KIPRJMOD}/Lib/UGent_standard_stock_Discrete.kicad_sym")(options "")(descr ""))
+  (lib (name "UGent_standard_stock_IC")(type "KiCad")(uri "${KIPRJMOD}/Lib/UGent_standard_stock_IC.kicad_sym")(options "")(descr ""))
+  (lib (name "UGent_standard_stock_Opto")(type "KiCad")(uri "${KIPRJMOD}/Lib/UGent_standard_stock_Opto.kicad_sym")(options "")(descr ""))
+  (lib (name "UGent_standard_stock_PnP")(type "KiCad")(uri "${KIPRJMOD}/Lib/UGent_standard_stock_PnP.kicad_sym")(options "")(descr ""))
+  (lib (name "UGent_standard_stock_Power")(type "KiCad")(uri "${KIPRJMOD}/Lib/UGent_standard_stock_Power.kicad_sym")(options "")(descr ""))
+  (lib (name "UGent_standard_stock_Switch")(type "KiCad")(uri "${KIPRJMOD}/Lib/UGent_standard_stock_Switch.kicad_sym")(options "")(descr ""))
+  (lib (name "UGent_standard-stock_Passive_C")(type "KiCad")(uri "${KIPRJMOD}/Lib/UGent_standard-stock_Passive_C.kicad_sym")(options "")(descr ""))
+  (lib (name "UGent_standard-stock_Passive_R")(type "KiCad")(uri "${KIPRJMOD}/Lib/UGent_standard-stock_Passive_R.kicad_sym")(options "")(descr ""))
+  (lib (name "UGent_standard_stock_Connector")(type "KiCad")(uri "${KIPRJMOD}/Lib/UGent_standard_stock_Connector.kicad_sym")(options "")(descr ""))
+)
